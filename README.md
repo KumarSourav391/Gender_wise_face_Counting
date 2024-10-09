@@ -205,7 +205,12 @@ mainly this accuracy is comes when the model is not detecting more
 than 10 images at a time.
 Some sample outputs are :
 ● when we pass an image in our program :
+![image](https://github.com/user-attachments/assets/cc1752f8-d49d-4b68-9dbb-8e5a9ff85398)
+
+
 ● Sample output from web cam :
+![image](https://github.com/user-attachments/assets/dcd5c6e5-744f-448c-881a-52dc67281b28)
+
 Conclusion
 Machine learning (ML) methods has recently contributed very well in the
 advancement of the prediction models used for energy consumption. Such
