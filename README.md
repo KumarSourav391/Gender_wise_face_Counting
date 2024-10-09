@@ -241,6 +241,7 @@ Classification report :
 Confusion matrix for Gender Detection with Accuracy(94.61%) and
 mainly this accuracy is comes when the model is not detecting more
 than 10 images at a time.
+
 Some sample outputs are :
 ● when we pass an image in our program :
 
