@@ -1,6 +1,44 @@
 # Gender_wise_face_Counting
 
-Introduction and Overview of Project
+TABLE OF CONTENT
+1. Abstract
+2. Introduction and Overview of Project
+3. Evaluation Metrics
+4. Data Preprocessing
+  4.1 Exploratory Data Analysis
+    4.1.1 Import and Read in Data
+    4.1.2 Loading Dataset
+    4.1.3 Forming the DataFrame
+  4.2 EDA
+    4.2.1 Variable identification and Data types
+    4.2.2 Size of the Dataset
+    4.2.3 Describe the dataset
+  4.3 Data Preprocessing
+    4.3.1 Augmentation
+    4.3.2 Separating the dataset into test and train
+5. Model Building
+6. Conclusion
+7. Future Scope & Application
+8. Bibliography
+   
+## 1. Abstract
+computerized gender recognition has now pertinent to an extension of its usage in
+numerous software and hardware, specifically because of the growth of on-line
+social networking websites and social media. but the overall performance of
+already exist device with the physical world face photos, pictures are fairly no
+longer terrific, specifically in assessment with the end result of undertaking related
+to face recognition. inside this paper, we have explored that by means of doing
+examine and classification approach and with the usage of Deep Convolutional
+Neural Networks (D-CNN) method, a satisfied increase in overall performance
+may be executed on such gender class obligations that is a motive why we
+determined to suggest an green convolutional community VGGnet architecture
+which can be used in intense case when the quantity of training statistics used to
+research D-CNN based totally on VGGNet architecture is limited. We examine our
+associated paintings at the current unfiltered image of the face for gender
+reputation and show it to dramatics outplay modern-day improve up to date
+methods.
+
+## 2. Introduction and Overview of Project
 we're going to discover ways to construct a pc vision and deep learning aggregate utility. Which performs
 gender smart face recognition with opencv and counts the people inside the photo or within the video.
 In other words with the help of deep learning and computer vision algorithms using python
