@@ -14,13 +14,13 @@ you may have additionally heard about laptop imaginative and prescient. regularl
 as OpenCV. that is defined as a sub subject of look at that seeks to increase techniques to help
 computers “see” and understand the content of digital images which includes snap shots and
 videos.
-2.1 Objectives of the project:
+### 2.1 Objectives of the project:
 i. Predicting the gender of the presons.
 ii. Counting the number of faces visible in image or in a video.
-2.2 Models Used For Prediction:
+### 2.2 Models Used For Prediction:
 1. Deep Convolutional Neural Network
 2. OpenCV
-2.3 Neural Networks:
+### 2.3 Neural Networks:
 A neural network is a series of algorithms that endeavors to recognize underlying
 relationships in a set of data through a process that mimics the way the human
 brain operates. In this sense, neural networks refer to systems of neurons, either
@@ -33,7 +33,7 @@ nodes in the chart below) that we use to classify things, make predictions, etc.
 The arrows that connect the dots shows how all the neurons are interconnected
 and how data travels from the input layer all the way through to the output layer.
 Advantages of Neural Network:
-● Neural Networks have the ability to learn by themselves and produce
+#### Neural Networks have the ability to learn by themselves and produce
 the output that is not limited to the input provided to them.
 ● The input is stored in its own networks instead of a data base, hence
 the loss of data does not affect its working.
@@ -76,8 +76,8 @@ Disadvantage of OpenCV :
 ● OpenCV does not provide the same ease of use when compared to MATLAB
 ● OpenCV has a flann library of its own. This causes conflict issues when you
 try to use OpenCV library with the PCL library
-3. Evaluation Metrics
-3.1 Accuracy:
+## 3. Evaluation Metrics
+### 3.1 Accuracy:
 Accuracy is one metric for evaluating classification models.
 Informally, accuracy is the fraction of predictions our model got right. Formally,
 accuracy has the following definition:
@@ -86,7 +86,7 @@ negatives as follows:
 Accuracy=TP+TNTP+TN+FP+FN
 Where TP = True Positives, TN = True Negatives, FP = False Positives, and FN =
 False Negatives.
-3.2 Precision and Recall
+### 3.2 Precision and Recall
 Precision is a good measure to determine, when the costs of False Positive is
 high. For instance, email spam detection. In email spam detection, a false positive
 means that an email that is non-spam (actual negative) has been identified as
@@ -99,12 +99,12 @@ Recall calculates how many of the Actual Positives our model capture through
 labeling it as Positive (True Positive). Applying the same understanding, we know
 that Recall shall be the model metric we use to select our best model when there
 is a high cost associated with False Negative.
-3.3 F1 Score
+### 3.3 F1 Score
 F1 is a function of Precision and Recall.
 F1 Score might be a better measure to use if we need to seek a balance between
 Precision and Recall AND there is an uneven class distribution (large number of
 Actual Negatives) .
-3.4 Support
+### 3.4 Support
 Support is the number of actual occurrences of the class in the specified data
 set.Imbalanced support in the training data may indicate structural weaknesses in
 the reported scores of the classifier and could indicate the need for stratified
@@ -121,7 +121,7 @@ Let’s decipher the matrix:
 ● The target variable has two values: Positive or Negative
 ● The columns represent the actual values of the target variable
 ● The rows represent the predicted values of the target variable
-4. Data Preprocessing
+## 4. Data Preprocessing
 Data preprocessing is a process of preparing the raw data and making it suitable
 for a machine learning model. It is the first and crucial step while creating a
 machine learning model.
@@ -136,15 +136,15 @@ machine learning model which also increases the accuracy and efficiency of a
 machine learning model.
 Before going into pre-processing and data exploration we will explain some
 of the concepts that allowed us t o select our features.
-4.1 Exploratory Data Analysis :-
+### 4.1 Exploratory Data Analysis :-
 refers to the critical process of performing initial investigations on data so as
 to discover patterns, to spot nomalies, to test hypo thesis and to check
 assumptions with the help of summary statistics and graphical
 representations .
-4.1.1 Imports and Read In Data
-4.1.2 loading dataset
-4.1.3 Forming the DataFrame
-4.2 EDA
+#### 4.1.1 Imports and Read In Data
+#### 4.1.2 loading dataset
+#### 4.1.3 Forming the DataFrame
+### 4.2 EDA
 It is a way of visualizing, summarizing and interpreting the information that is
 hidden in rows and column format. EDA is one of the crucial step in data science
 that allows us to achieve certain insights and statistical measure that is essential
@@ -160,23 +160,23 @@ and refine our important features.
 The very first step in exploratory data analysis is to identify the type of variables in
 the dataset. Variables are of two types Numerical and Categorical. . dtypes method
 to identify the data type of the variables in the dataset .
-4.2.2 Size of the dataset
+#### 4.2.2 Size of the dataset
 We can get the size of the dataset using the shape method.
-4.2.3 describe the dataset
+#### 4.2.3 describe the dataset
 Describe() function to get various summary statistics that exclude NaN values.this
 function returns the count, mean, standard deviation, minimum and maximum
 values and the quantiles of the data.
-4.3 Data preprocessing
-4.3.1 Augmentation
+### 4.3 Data preprocessing
+#### 4.3.1 Augmentation
 After execution of this code, the independent variable X and dependent
 variable Y will transform into the following.
-4.3.2 Separating the dataset into test and train
+#### 4.3.2 Separating the dataset into test and train
 Any machine learning algorithm needs to be tested for accuracy. In order to do
 that, we divide our data set into two parts: training set and testing set. As the
 name itself suggests, we use the training set to make the algorithm learn the
 behaviours present in the data and check the correctness of the algorithm by
 testing on testing set.
-5. Model Building
+## 5. Model Building
 The modeling process was divided into two main parts: traditional machine
 learning models and deep neural networks. Simpler models were to be used as a
 baseline for the convolutional neural network and recurrent neural network.
@@ -205,10 +205,12 @@ mainly this accuracy is comes when the model is not detecting more
 than 10 images at a time.
 Some sample outputs are :
 ● when we pass an image in our program :
+
 ![image](https://github.com/user-attachments/assets/cc1752f8-d49d-4b68-9dbb-8e5a9ff85398)
 
 
 ● Sample output from web cam :
+
 ![image](https://github.com/user-attachments/assets/dcd5c6e5-744f-448c-881a-52dc67281b28)
 
 Conclusion
